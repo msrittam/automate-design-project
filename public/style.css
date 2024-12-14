@@ -1,0 +1,715 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.AppContainer{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #1e1e1e;
+    display: flex;
+}
+.WebsiteSidebar{
+    min-width: 15%;
+    max-width: 15%;
+    min-height: 96%;
+    max-height: 96%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #121212;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 1%;
+}
+.SidebarSearchLogo{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 10px;
+}
+.SidebarSearchLogo img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.AutomateChatContainer{
+    min-width: 15%;
+    max-width: 15%;
+    min-height: 96%;
+    max-height: 96%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #262626;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 1%;
+}
+.AutomateChatPara{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 18px;
+    color: white;
+}
+.AutomateChatPara2{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: white;
+}
+.AutomateChatPara3{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    margin: 20px 0px;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: white;
+}
+.SidebarSearchLogoWrapper{
+    border: 2px solid white;
+    min-width: 89%;
+    max-width: 89%;
+    border-radius: 100px;
+    overflow-x: hidden;
+    padding: 8px 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 45px;
+}
+.SidebarNewChatLogoWrapper{
+    border: 2px solid white;
+    min-width: 89%;
+    max-width: 89%;
+    border-radius: 100px;
+    overflow-x: hidden;
+    padding: 8px 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SidebarServiceLogoWrapper{
+    min-width: 94%;
+    max-width: 94%;
+    border-radius: 10px;
+    overflow-x: hidden;
+    padding: 10px 3%;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #313131;
+}
+.SidebarServiceLogoWrapper1{
+    min-width: 94%;
+    max-width: 94%;
+    border-radius: 10px;
+    overflow-x: hidden;
+    padding: 10px 3%;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.AutomateDesignContainer{
+    width: 98%;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #1e1e1e;
+    padding: 1%;
+}
+.AutomateDesignHeader{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DesignHeaderHeading{
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DesignHeaderLogoImage{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+}
+.DesignHeaderLogoImage img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.DesignHeaderName{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    padding-left: 10px;
+    font-size: 21px;
+    color: white;
+}
+.HeaderShareDownload{
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DesignHeaderShare{
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.DesignHeaderDownload{
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.AutomateDesignShare{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+}
+.AutomateDesignShare img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.AutomateDesignDownload{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+}
+.AutomateDesignDownload img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.DesignHeaderShareName{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    padding-left: 6px;
+    font-size: 18px;
+    color: white;
+}
+.DesignHeaderDownloadName{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    padding-left: 6px;
+    font-size: 18px;
+    color: black;
+}
+.CustomerRegistration{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.CustomerRegistrationLogo{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+}
+.CustomerRegistrationLogo img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.CustomerRegistrationName{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    padding-left: 6px;
+    font-size: 25px;
+    color: white;
+}
+.AutomationSteps{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    padding-left: 6px;
+    padding-top: 3px;
+    font-size: 16px;
+    color: white;
+}
+.CustomerInformation{
+    width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+.CustomerInformationRouter{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+.CustomerInformationNumber{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    border: 3px solid #36489f;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 9px 15px;
+    font-size: 21px;
+    color: white;
+}
+.CustomerInformationBar{
+    background: linear-gradient(0deg,#993761,#993761,#36489f);
+    min-width: 3px;
+    max-width: 3px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.CustomerInfoDetailsContainer{
+    width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+}
+.CustomerInformationDetails{
+    min-width: 95%;
+    max-width: 95%;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #151515;
+    border: 3px solid #3b3b3b;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.CustomerInformationRouter2{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.CustomerInformationBar2{
+    background: linear-gradient(0deg,#993761,#993761,#993761);
+    min-width: 3px;
+    max-width: 3px;
+    min-height: 20px;
+    max-height: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.CustomerInformationBar4{
+    background: linear-gradient(0deg,#9f623e,#9f623e,#9f623e);
+    min-width: 3px;
+    max-width: 3px;
+    min-height: 20px;
+    max-height: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.CustomerInformationBar6{
+    background: linear-gradient(0deg,#785099,#785099,#785099);
+    min-width: 3px;
+    max-width: 3px;
+    min-height: 20px;
+    max-height: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.CustomerInformationBar8{
+    background: linear-gradient(0deg,#4a92b7,#4a92b7,#4a92b7);
+    min-width: 3px;
+    max-width: 3px;
+    min-height: 20px;
+    max-height: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.CustomerInformationNumber2{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    border: 3px solid #993761;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 9px 15px;
+    font-size: 21px;
+    color: white;
+}
+.CustomerInformationNumber3{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    border: 3px solid #9f623e;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 9px 15px;
+    font-size: 21px;
+    color: white;
+}
+.CustomerInformationNumber4{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    border: 3px solid #785099;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 9px 15px;
+    font-size: 21px;
+    color: white;
+}
+.CustomerInformationNumber5{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    border: 3px solid #4a92b7;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 9px 15px;
+    font-size: 21px;
+    color: white;
+}
+.CustomerInformationBar3{
+    background: linear-gradient(0deg,#9f623e,#9f623e,#993761);
+    min-width: 3px;
+    max-width: 3px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.CustomerInformationBar5{
+    background: linear-gradient(0deg,#785099,#785099,#9f623e);
+    min-width: 3px;
+    max-width: 3px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.CustomerInformationBar7{
+    background: linear-gradient(0deg,#4a92b7,#4a92b7,#785099);
+    min-width: 3px;
+    max-width: 3px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.CustomerInformationDetails1{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CustomerInformationDetails2{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.CustomerInformationCollection{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 21px;
+    color: white;
+}
+.CustomerInfoParagraph{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    padding-top: 4px;
+    font-size: 16px;
+    color: white;
+}
+.CustomerInformationLogos{
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CustomerInformationAssist{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    border: 2px solid white;
+    min-width: fit-content;
+    max-width: fit-content;
+    border-radius: 100px;
+    overflow-x: hidden;
+    padding: 8px 16px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+.CustomerInformationImageWrap{
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: 3px solid #3b3b3b;
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CustomerInformationStart{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 21px;
+    color: white;
+}
+.CustomerInformationTrigger1{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    border: 2px solid #c7797a;
+    min-width: fit-content;
+    max-width: fit-content;
+    border-radius: 100px;
+    overflow-x: hidden;
+    padding: 8px 36px;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #c7797a;
+}
+.CustomerInformationTrigger2{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    border: 2px solid #79a461;
+    min-width: fit-content;
+    max-width: fit-content;
+    border-radius: 100px;
+    overflow-x: hidden;
+    padding: 8px 36px;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #79a461;
+}
+.CustomerInformationTrigger3{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    border: 2px solid #c379ad;
+    min-width: fit-content;
+    max-width: fit-content;
+    border-radius: 100px;
+    overflow-x: hidden;
+    padding: 8px 36px;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #c379ad;
+}
